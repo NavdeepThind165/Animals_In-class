@@ -1,4 +1,7 @@
-@modified by Navdeep Singh Thind on 18 feb 2020
+/**
+ *@modified by Navdeep Singh Thind on 18 feb 2020 
+ */
+
 
 package animalexample;
 
@@ -26,6 +29,10 @@ public class AnimalExample{
         Hamster hamster = new Hamster("Hammy");
         Apple apple = new Apple();
         Chicken chicken = new Chicken();
+        
+        System.out.println(dog.play());
+        System.out.println(cat.makeSound());
+        System.out.println(hamster.makeSound());
 
         System.out.println(dog.howToEat());
         System.out.println(hamster.howToEat());
